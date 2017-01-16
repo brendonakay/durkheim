@@ -17,10 +17,10 @@ navigation = [
 
 
 @app.route('/')
-def index(name=None):
+def index():
     return render_template('index.html', navigation=navigation)
 
 
 @app.route('/page')
-def page(name=None):
+def page():
     return render_template('page.html', navigation=navigation)
