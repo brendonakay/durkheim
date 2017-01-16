@@ -6,7 +6,7 @@ A sandbox for IoT device programming using a Flask webapp as an interface.
 
 ENVIRONMENT:
     Python 2.7
-        virtualenv required
+        virtualenv
         Flask
 
 
@@ -26,7 +26,7 @@ SET UP:
     - in Terminal...
         $ cd /durkheim-github/root-directory/
         $ . /venv/bin/activate
-        $ export FLASK_APP=index.py'
+        $ export FLASK_APP=index.py
         $ flask run
     - in browser visit...
         http://127.0.0.1:5000/
