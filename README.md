@@ -24,7 +24,8 @@ TOOO:
 SET UP:
     - Install Python 2.7
     - in Terminal...
-        $ cd /durkheim-github/directory/
+        $ cd /durkheim-github/root-directory/
+        $ . /venv/bin/activate
         $ export FLASK_APP=index.py'
         $ flask run
     - in browser visit...
