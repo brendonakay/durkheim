@@ -11,7 +11,9 @@ ENVIRONMENT:
 
 
 TOOO:
+    
     Web App
+        
         - Implement AWS IoT API
             https://github.com/aws/aws-iot-device-sdk-python
 
@@ -22,6 +24,7 @@ TOOO:
 
 
 SET UP:
+    
     - Install Python 2.7
     - in Terminal...
         $ cd /durkheim-github/root-directory/
