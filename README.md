@@ -20,6 +20,8 @@ TOOO:
 
         - Build out home page
 
+        - Deploy to AWS cloud server
+
     IoT
         - Build first IoT device to connect to web app
 
@@ -33,7 +35,7 @@ SET UP:
         $ . /venv/bin/activate
         $ export FLASK_APP=routes.py
         $ python2.7 -B -m flask run
-        
+
     - in browser visit...
         http://127.0.0.1:5000/
 
