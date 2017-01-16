@@ -27,11 +27,13 @@ TOOO:
 SET UP:
     
     - Install Python 2.7
+
     - in Terminal...
         $ cd /durkheim-github/root-directory/
         $ . /venv/bin/activate
-        $ export FLASK_APP=index.py
-        $ flask run
+        $ export FLASK_APP=routes.py
+        $ python2.7 -B -m flask run
+        
     - in browser visit...
         http://127.0.0.1:5000/
 
