@@ -9,6 +9,10 @@ ENVIRONMENT:
     Python 2.7
         virtualenv
         Flask
+        AWS IoT Python SDK
+            http://docs.aws.amazon.com/iot/latest/developerguide/protocols.html
+        
+
 
 
 TOOO:
